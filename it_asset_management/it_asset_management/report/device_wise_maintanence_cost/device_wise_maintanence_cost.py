@@ -2,7 +2,7 @@ import frappe
 
 def execute(filters=None):
     columns = [
-        {"label": "Device Type", "fieldname": "device_type", "fieldtype": "Data", "width": 150},
+        {"label": "Device Type", "fieldname": "device_type", "fieldtype": "Link", "options": "Device Type", "width": 150},
         {"label": "Device", "fieldname": "device", "fieldtype": "Link", "options": "Device", "width": 200},
         {"label": "Total Repair Cost", "fieldname": "total_cost", "fieldtype": "Currency", "width": 150},
     ]

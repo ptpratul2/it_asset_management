@@ -1,24 +1,24 @@
 {
  "charts": [
   {
-   "chart_name": "Device",
-   "label": "Device"
+   "chart_name": "Device Status",
+   "label": "Device Status"
   }
  ],
- "content": "[{\"id\":\"HSLzm0UD1t\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Device\",\"col\":12}},{\"id\":\"Ryz_Iv_fFU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"OaWigVDaTp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Quick Access</span>\",\"col\":12}},{\"id\":\"mXzXvAyuxy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"l4KC3ti6iR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Allocation History\",\"col\":3}},{\"id\":\"BaSIu29WI6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device wise Maintenance Cost\",\"col\":3}},{\"id\":\"Hgf1IsiSri\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Status Counts\",\"col\":3}},{\"id\":\"hguvItys2p\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"kiGNWBLH4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Master</b></span>\",\"col\":12}},{\"id\":\"QJFnldQwF-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device\",\"col\":3}},{\"id\":\"tztd-C6zfA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Type\",\"col\":3}},{\"id\":\"u1SBXbFUJR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Repair Log\",\"col\":3}},{\"id\":\"aXl9XyPLjP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Assignment Log\",\"col\":3}}]",
+ "content": "[{\"id\":\"HSLzm0UD1t\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Device Status\",\"col\":12}},{\"id\":\"Ryz_Iv_fFU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"OaWigVDaTp\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Quick Access</span>\",\"col\":12}},{\"id\":\"mXzXvAyuxy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":3}},{\"id\":\"l4KC3ti6iR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Allocation History\",\"col\":3}},{\"id\":\"BaSIu29WI6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device wise Maintenance Cost\",\"col\":3}},{\"id\":\"Hgf1IsiSri\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Status Counts\",\"col\":3}},{\"id\":\"hguvItys2p\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"kiGNWBLH4G\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Master</b></span>\",\"col\":12}},{\"id\":\"QJFnldQwF-\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device\",\"col\":3}},{\"id\":\"tztd-C6zfA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Type\",\"col\":3}},{\"id\":\"u1SBXbFUJR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Repair Log\",\"col\":3}},{\"id\":\"aXl9XyPLjP\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Device Assignment Log\",\"col\":3}}]",
  "creation": "2025-09-16 22:04:21.355028",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "getting-started",
+ "icon": "assets",
  "idx": 0,
- "indicator_color": "green",
+ "indicator_color": "",
  "is_hidden": 0,
  "label": "IT Inventory",
  "links": [],
- "modified": "2025-09-16 22:38:49.653788",
+ "modified": "2025-09-17 23:07:52.229609",
  "modified_by": "Administrator",
  "module": "It Asset Management",
  "name": "IT Inventory",
@@ -28,7 +28,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 28.0,
+ "sequence_id": 2.0,
  "shortcuts": [
   {
    "color": "Grey",

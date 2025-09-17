@@ -19,15 +19,15 @@
    "width": "Half"
   },
   {
-   "chart": "Repairing Costs",
-   "width": "Half"
-  },
-  {
    "chart": "Device Type wise Status",
    "width": "Half"
   },
   {
    "chart": "Device wise Maintenance Cost",
+   "width": "Full"
+  },
+  {
+   "chart": "Repairing Costs",
    "width": "Half"
   }
  ],
@@ -36,9 +36,9 @@
  "docstatus": 0,
  "doctype": "Dashboard",
  "idx": 0,
- "is_default": 1,
+ "is_default": 0,
  "is_standard": 1,
- "modified": "2025-09-16 18:55:18.894908",
+ "modified": "2025-09-17 23:18:18.254434",
  "modified_by": "Administrator",
  "module": "It Asset Management",
  "name": "IT Assets",

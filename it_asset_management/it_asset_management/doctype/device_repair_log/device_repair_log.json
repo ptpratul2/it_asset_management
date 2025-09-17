@@ -26,6 +26,7 @@
    "fieldname": "device",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Device",
    "options": "Device",
    "reqd": 1
@@ -44,6 +45,7 @@
    "allow_on_submit": 1,
    "fieldname": "status",
    "fieldtype": "Select",
+   "in_standard_filter": 1,
    "label": "Status",
    "options": "Draft\nAssigned to Vendor\nTesting\nCompleted\nCancelled",
    "read_only": 1
@@ -113,7 +115,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-14 18:34:29.507716",
+ "modified": "2025-09-17 23:21:27.464126",
  "modified_by": "Administrator",
  "module": "It Asset Management",
  "name": "Device Repair Log",
@@ -135,7 +137,6 @@
    "write": 1
   }
  ],
- "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [
