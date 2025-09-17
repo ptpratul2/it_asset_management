@@ -1,0 +1,33 @@
+{
+ "chart_name": "Device Dashboard",
+ "chart_type": "Report",
+ "creation": "2025-09-15 11:44:08.776461",
+ "currency": "",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-09-15 11:51:55.292201",
+ "modified_by": "Administrator",
+ "module": "It Asset Management",
+ "name": "Device Dashboard",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Device Status Counts",
+ "roles": [],
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "status",
+ "y_axis": [
+  {
+   "y_field": "total"
+  }
+ ]
+}

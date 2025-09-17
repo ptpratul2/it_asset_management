@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-09-15 10:49:30.857570",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letterhead": null,
+ "modified": "2025-09-15 10:49:30.857570",
+ "modified_by": "Administrator",
+ "module": "It Asset Management",
+ "name": "Device Status Counts",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT \n    device_type,\n    status,\n    COUNT(name) as total\nFROM `tabDevice`\nGROUP BY device_type, status\n",
+ "ref_doctype": "Device",
+ "report_name": "Device Status Counts",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}
