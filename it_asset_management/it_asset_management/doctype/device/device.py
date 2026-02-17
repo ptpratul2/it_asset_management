@@ -23,7 +23,7 @@ class Device(Document):
 		if self.status == "Assigned":
 			active_log = frappe.db.get_value(
 				"Device Assignment Log",
-				{"device": self.name, "return_date": ["is", "null"]},
+				{"device": self.name, "return_date": ["is", "not set"]},
 				"name"
 			)
 			if not active_log:

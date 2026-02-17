@@ -11,7 +11,7 @@ class DeviceAssignmentLog(Document):
         if not self.return_date:
             exists = frappe.db.exists(
                 "Device Assignment Log",
-                {"device": self.device, "return_date": ["is", "null"], "name": ["!=", self.name]}
+                {"device": self.device, "return_date": ["is", "not set"], "name": ["!=", self.name]}
             )
             if exists:
                 frappe.throw("This device is already assigned and not yet returned.")
@@ -50,7 +50,7 @@ class DeviceAssignmentLog(Document):
 def get_active_log(device):
     log = frappe.db.get_value(
         "Device Assignment Log",
-        {"device": device, "return_date": ["is", "null"]},
+        {"device": device, "return_date": ["is", "not set"]},
         "name"
     )
     return log
